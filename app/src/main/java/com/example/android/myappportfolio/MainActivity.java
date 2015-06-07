@@ -20,7 +20,7 @@ public class MainActivity extends ActionBarActivity {
         first.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "This button will launch " + first.getText().toString().toLowerCase(), Toast.LENGTH_SHORT);
+                Toast.makeText(MainActivity.this, "This button will launch " + first.getText().toString().toLowerCase(), Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -28,7 +28,7 @@ public class MainActivity extends ActionBarActivity {
         second.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "This button will launch " + second.getText().toString().toLowerCase(), Toast.LENGTH_SHORT);
+                Toast.makeText(MainActivity.this, "This button will launch " + second.getText().toString().toLowerCase(), Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -36,7 +36,7 @@ public class MainActivity extends ActionBarActivity {
         third.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "This button will launch " + third.getText().toString().toLowerCase(), Toast.LENGTH_SHORT);
+                Toast.makeText(MainActivity.this, "This button will launch " + third.getText().toString().toLowerCase(), Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -44,7 +44,7 @@ public class MainActivity extends ActionBarActivity {
         fourth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "This button will launch " + fourth.getText().toString().toLowerCase(), Toast.LENGTH_SHORT);
+                Toast.makeText(MainActivity.this, "This button will launch " + fourth.getText().toString().toLowerCase(), Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -52,7 +52,7 @@ public class MainActivity extends ActionBarActivity {
         fifth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "This button will launch " + fifth.getText().toString().toLowerCase(), Toast.LENGTH_SHORT);
+                Toast.makeText(MainActivity.this, "This button will launch " + fifth.getText().toString().toLowerCase(), Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -60,7 +60,7 @@ public class MainActivity extends ActionBarActivity {
         last.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "This button will launch " + last.getText().toString().toLowerCase(), Toast.LENGTH_SHORT);
+                Toast.makeText(MainActivity.this, "This button will launch " + last.getText().toString().toLowerCase(), Toast.LENGTH_SHORT).show();
             }
         });
     }
